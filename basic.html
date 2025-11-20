@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fit Soam- Modern Gym</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">💪</span> Rana Gym
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#classes" class="nav-link">Classes</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Transform Your Body, Transform Your Life</h1>
+            <p class="hero-subtitle">Join FitForce and discover the power of fitness with expert trainers and state-of-the-art equipment</p>
+            <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                Get Started
+            </button>
+        </div>
+        <div class="floating-cards">
+            <div class="float-card card-1">
+                <h3>50+</h3>
+                <p>Classes Weekly</p>
+            </div>
+            <div class="float-card card-2">
+                <h3>2K+</h3>
+                <p>Active Members</p>
+            </div>
+            <div class="float-card card-3">
+                <h3>15+</h3>
+                <p>Expert Trainers</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2 class="section-title">Why Choose Rana Gym</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🏋️</div>
+                <h3>Modern Equipment</h3>
+                <p>State-of-the-art fitness equipment to maximize your workout potential</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">👨‍🏫</div>
+                <h3>Expert Trainers</h3>
+                <p>Certified professionals ready to guide your fitness journey</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Personal Goals</h3>
+                <p>Customized workout plans tailored to your specific objectives</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>Community</h3>
+                <p>Join a supportive fitness community and achieve together</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="classes">
+        <h2 class="section-title">Our Classes</h2>
+        <div class="classes-grid">
+            <div class="class-card">
+                <div class="class-badge">Strength</div>
+                <h3>Weight Training</h3>
+                <p>Build muscle and strength with our comprehensive weight training programs</p>
+                <button class="btn btn-secondary">Book Now</button>
+            </div>
+            <div class="class-card">
+                <div class="class-badge">Cardio</div>
+                <h3>HIIT Training</h3>
+                <p>High-intensity interval training for maximum calorie burn and endurance</p>
+                <button class="btn btn-secondary">Book Now</button>
+            </div>
+            <div class="class-card">
+                <div class="class-badge">Flexibility</div>
+                <h3>Yoga & Pilates</h3>
+                <p>Improve flexibility, core strength, and mental wellness</p>
+                <button class="btn btn-secondary">Book Now</button>
+            </div>
+            <div class="class-card">
+                <div class="class-badge">Dance</div>
+                <h3>Zumba Dance</h3>
+                <p>Fun, energetic dance workout that burns calories while having a blast</p>
+                <button class="btn btn-secondary">Book Now</button>
+            </div>
+            <div class="class-card">
+                <div class="class-badge">Boxing</div>
+                <h3>Boxing Training</h3>
+                <p>Learn self-defense and get an intense full-body workout</p>
+                <button class="btn btn-secondary">Book Now</button>
+            </div>
+            <div class="class-card">
+                <div class="class-badge">Recovery</div>
+                <h3>Spinning Classes</h3>
+                <p>Motivating indoor cycling classes with amazing music and community</p>
+                <button class="btn btn-secondary">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2 class="section-title">Membership Plans</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Starter</h3>
+                <p class="price">$29<span>/month</span></p>
+                <ul class="pricing-features">
+                    <li>✓ Gym Access</li>
+                    <li>✓ 5 Classes/Month</li>
+                    <li>✓ Locker Room</li>
+                    <li>✗ Personal Trainer</li>
+                    <li>✗ Nutrition Plan</li>
+                </ul>
+                <button class="btn btn-outline">Choose Plan</button>
+            </div>
+            <div class="pricing-card popular">
+                <div class="popular-badge">Most Popular</div>
+                <h3>Premium</h3>
+                <p class="price">$59<span>/month</span></p>
+                <ul class="pricing-features">
+                    <li>✓ Gym Access</li>
+                    <li>✓ Unlimited Classes</li>
+                    <li>✓ Locker Room</li>
+                    <li>✓ 2 Trainer Sessions/Month</li>
+                    <li>✗ Nutrition Plan</li>
+                </ul>
+                <button class="btn btn-primary">Choose Plan</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Elite</h3>
+                <p class="price">$99<span>/month</span></p>
+                <ul class="pricing-features">
+                    <li>✓ Gym Access</li>
+                    <li>✓ Unlimited Classes</li>
+                    <li>✓ Locker Room</li>
+                    <li>✓ Unlimited Trainer Sessions</li>
+                    <li>✓ Nutrition Plan</li>
+                </ul>
+                <button class="btn btn-outline">Choose Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2 class="section-title">Member Success Stories</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"FitForce changed my life completely. The trainers are amazing and the community is so supportive!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">JD</div>
+                    <div>
+                        <p class="author-name">John Davis</p>
+                        <p class="author-role">Member for 1 year</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"I've achieved my fitness goals faster than I ever imagined. Highly recommend FitForce!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">SM</div>
+                    <div>
+                        <p class="author-name">Sarah Miller</p>
+                        <p class="author-role">Member for 6 months</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"The equipment, facilities, and staff are all top-notch. Worth every penny!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">MJ</div>
+                    <div>
+                        <p class="author-name">Mike Johnson</p>
+                        <p class="author-role">Member for 2 years</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Address:</strong> Salawa Road, Meerut, 250342</p>
+                <p><strong>Phone:</strong> +91 7500 XXXXXX</p>
+                <p><strong>Email:</strong> soamparikshit@gmail.com</p>
+                <p><strong>Hours:</strong> Mon-Fri 6am-10pm | Sat-Sun 8am-8pm</p>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>FitForce</h4>
+                <p>Your journey to fitness starts here</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2025 FitForce. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
